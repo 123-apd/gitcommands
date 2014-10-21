@@ -1,0 +1,18 @@
+
+	/// WEBCAST - The basics of git and github
+	https://www.youtube.com/watch?v=U8GBXvdmHT4
+
+	// Make folder / repo
+git init project1
+cd project1
+ls
+ls-al
+
+	// Command overview
+git
+
+	To "unversion" a repo => just delete the .git folder in the repo...
+
+	// Ask git what it thinks about the current directory
+git status
+
