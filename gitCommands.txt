@@ -13,6 +13,18 @@ git
 
 	To "unversion" a repo => just delete the .git folder in the repo...
 
-	// Ask git what it thinks about the current directory
+	//Ask git what it thinks about the current directory => checks 
+	folder and subfolders for changes and new files	
+	
 git status
+	=> nothing added to commit, but untracked file present
+	
+	// Add to version control. GIT ADD is merely a suggestion to participate in the next
+	transactional action. Not yet a permanent record to the file
+git add first.txt
+git status
+	=> new file: gitCommands.txt
 
+git commit -m "my first commit"
+	=> this file is now a permanent part of version control
+git status
