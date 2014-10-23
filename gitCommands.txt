@@ -33,3 +33,8 @@ transactional action. Not yet a permanent record to the file
 	=> this file is now a permanent part of version control
 	
 	git status
+
+// Push an existing repository from the command line
+
+	git remote add origin https://github.com/123-apd/gitcommands
+	git push -u origin master
