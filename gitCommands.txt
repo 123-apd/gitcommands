@@ -41,9 +41,10 @@ transactional action. Not yet a permanent record to the file
 
 
 //201410230930 - Hvordan oppdaterer jeg egentlig disse greiene etter å ha satt det opp?
-1. git add .
-2. $ commit -m "let test this again"
-3. git push -u origin master
-4. ahaaaa..... origin er katalogen det gjøres fra, master er branchen
-5. brukernavn: 123-1pd
-6. Passord: dtH******3
+1. 	git add .
+2. 	$ commit -m "let test this again"
+3. 	git push -u origin master
+3b. 	Hvis dette ikke funker, prøv git PULL -u origin master
+4. 	ahaaaa..... origin er katalogen det gjøres fra, master er branchen
+5. 	brukernavn: 123-1pd
+6.	 Passord: dtH******3
